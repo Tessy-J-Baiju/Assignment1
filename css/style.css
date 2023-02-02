@@ -1,0 +1,319 @@
+/*Author:Tessy J Baiju*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.banner {
+    background-image: url("../images/academy-banner.jpg");
+    background-size: cover;
+    position: relative;
+    height: 700px;
+}
+h1 {
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 50px;
+    color: #1e2531;
+    position: absolute;
+    top: 315px;
+    right: 100px;
+    text-align: left;
+}
+.logo {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+.introduction {
+    position: relative;
+}
+.introimg {
+    width: 60px;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+.points {
+    width: 55%;
+    font-weight: 100;
+    position: absolute;
+    top: 100px;
+    right: 90px;
+    background-color: #1e2531;
+    color: rgb(95, 210, 210);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    line-height: 45px;
+}
+.points h2::before {
+    content: "{";
+    color: purple;
+    padding: 5px;
+}
+.points h2::after {
+    content: "}";
+    color: purple;
+    padding: 5px;
+}
+.content1 {
+    width: 100%;
+    font-weight: 100;
+    text-align: center;
+    padding: 55px;
+    color: #625d5d;
+    font-size: 20px;
+}
+.module {
+    background-image: url("../images/modulebg.jpg");
+    background-size: cover;
+    height: 700px;
+}
+.mod {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 100px;
+    padding: 100px;
+}
+.mod div {
+    width: 25%;
+    padding: 25px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(31, 28, 28, 0.7);
+}
+.content2 {
+    width: 100%;
+    font-weight: 100;
+    text-align: center;
+    padding: 55px;
+    color: #625d5d;
+    font-size: 20px;
+}
+.sample {
+    width: 100%;
+    display: flex;
+}
+.para1 {
+    text-align: center;
+    background-image: url("../images/testsbg.jpg");
+    background-size: cover;
+    height: 500px;
+}
+.para2 {
+    text-align: center;
+    background-image: url("../images/intrvwbg.jpg");
+    background-size: cover;
+    height: 500px;
+}
+.p1,
+.p2 {
+    color: #ffffff;
+    width: 100%;
+    height: 500px;
+    padding: 25%;
+}
+.paradiv {
+    background-color: rgba(6, 8, 11, 0.7);
+    padding: 10px;
+    margin: 20px;
+    height: 450px;
+}
+.conclusion {
+    width: 100%;
+    text-align: center;
+}
+.ready {
+    padding: 50px;
+    font-weight: 900;
+}
+h3 {
+    font-size: 30px;
+}
+.join {
+    padding: 10px;
+}
+a {
+    width: 80%;
+    text-decoration: none;
+    color: #f26422;
+    border-color: #f26422;
+    border: 2px solid;
+    padding: 20px;
+}
+.last {
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+}
+.l1,
+.l2 {
+    width: 100%;
+    height: 10%;
+    padding: 100px;
+    margin: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+@media screen and (max-width: 576px) {
+    .banner {
+        background-image: none;
+        background-color: #5a616e;
+        background-size: cover;
+        position: relative;
+        height: 700px;
+        width: 100%;
+    }
+    .logo {
+        margin-right: 20%;
+    }
+    .introduction {
+        width: 100%;
+        position: relative;
+    }
+    .introimg {
+        width: 500px;
+        margin-left: 100px;
+        padding: 0;
+    }
+    .imageimg {
+        width: 70%;
+    }
+    .points {
+        width: 80%;
+        height: 250px;
+        font-size: 12px;
+        margin-left: 50px;
+        position: static;
+        top: 60px;
+        right: 5px;
+        background-color: #1e2531;
+        color: rgb(95, 210, 210);
+        padding-top: 70px;
+        padding-bottom: 30px;
+        padding-left: 25px;
+        line-height: 25px;
+    }
+    .points h2::before {
+        content: "{";
+        color: purple;
+        padding: 10px;
+    }
+    .points h2::after {
+        content: "}";
+        color: purple;
+        padding: 10px;
+    }
+    .content1 {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        color: #625d5d;
+        font-size: 20px;
+    }
+    .module {
+        background-image: url("../images/modulebg.jpg");
+        background-size: cover;
+        height: 700px;
+    }
+    .mod {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 30px;
+        padding: 80px;
+    }
+    .mod div {
+        width: 28%;
+        padding: 25px;
+        margin-top: 60px;
+        color: #fff;
+        text-align: center;
+        background-color: rgba(31, 28, 28, 0.7);
+    }
+    .content2 {
+        width: 100%;
+        font-weight: 100;
+        text-align: center;
+        padding: 55px;
+        color: #625d5d;
+        font-size: 25px;
+    }
+    .sample {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .para1 {
+        text-align: center;
+        background-image: url("../images/testsbg.jpg");
+        background-size: cover;
+        height: 500px;
+    }
+    .para2 {
+        text-align: center;
+        background-image: url("../images/intrvwbg.jpg");
+        background-size: cover;
+        height: 500px;
+    }
+    .p1,
+    .p2 {
+        color: #ffffff;
+        width: 100%;
+        height: 500px;
+        padding: 25%;
+        font-size: 20px;
+    }
+    .paradiv {
+        background-color: rgba(6, 8, 11, 0.7);
+        padding: 10px;
+        margin: 20px;
+        height: 450px;
+    }
+    .conclusion {
+        width: 100%;
+        text-align: center;
+    }
+    .ready {
+        padding: 50px;
+        font-weight: 900;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .join {
+        padding: 10px;
+    }
+    a {
+        width: 100%;
+        text-decoration: none;
+        color: #f26422;
+        border-color: #f26422;
+        border: 2px solid;
+        padding: 25px;
+    }
+    .last {
+        width: 100%;
+        height: 80%;
+        padding: 10px;
+        display: flex;
+        font-size: 20px;
+        text-align: center;
+    }
+    .l1,
+    .l2 {
+        width: 100%;
+        height: 80%;
+        padding: 10px;
+        margin: 10px;
+        line-height: 30px;
+        text-align: center;
+    }
+}
