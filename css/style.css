@@ -176,12 +176,9 @@ a {
     }
     .introduction {
         width: 100%;
-        position: relative;
     }
     .introimg {
-        width: 500px;
-        margin-left: 100px;
-        padding: 0;
+        width: 250px;
     }
     .imageimg {
         width: 70%;
@@ -192,14 +189,10 @@ a {
         font-size: 12px;
         margin-left: 50px;
         position: static;
-        top: 60px;
-        right: 5px;
         background-color: #1e2531;
         color: rgb(95, 210, 210);
-        padding-top: 70px;
-        padding-bottom: 30px;
+        padding-top: 40px;
         padding-left: 25px;
-        line-height: 25px;
     }
     .points h2::before {
         content: "{";
@@ -211,13 +204,6 @@ a {
         color: purple;
         padding: 10px;
     }
-    .content1 {
-        width: 100%;
-        text-align: center;
-        padding: 20px;
-        color: #625d5d;
-        font-size: 20px;
-    }
     .module {
         background-image: url("../images/modulebg.jpg");
         background-size: cover;
@@ -226,7 +212,6 @@ a {
     .mod {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
         gap: 30px;
         padding: 80px;
     }
@@ -238,37 +223,13 @@ a {
         text-align: center;
         background-color: rgba(31, 28, 28, 0.7);
     }
-    .content2 {
-        width: 100%;
-        font-weight: 100;
-        text-align: center;
-        padding: 55px;
-        color: #625d5d;
-        font-size: 25px;
-    }
     .sample {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
-    .para1 {
-        text-align: center;
-        background-image: url("../images/testsbg.jpg");
-        background-size: cover;
-        height: 500px;
-    }
-    .para2 {
-        text-align: center;
-        background-image: url("../images/intrvwbg.jpg");
-        background-size: cover;
-        height: 500px;
-    }
     .p1,
     .p2 {
-        color: #ffffff;
-        width: 100%;
-        height: 500px;
-        padding: 25%;
         font-size: 20px;
     }
     .paradiv {
@@ -281,39 +242,17 @@ a {
         width: 100%;
         text-align: center;
     }
-    .ready {
-        padding: 50px;
-        font-weight: 900;
-    }
     h3 {
         font-size: 30px;
     }
     .join {
         padding: 10px;
     }
-    a {
-        width: 100%;
-        text-decoration: none;
-        color: #f26422;
-        border-color: #f26422;
-        border: 2px solid;
-        padding: 25px;
-    }
     .last {
-        width: 100%;
-        height: 80%;
-        padding: 10px;
-        display: flex;
         font-size: 20px;
-        text-align: center;
     }
     .l1,
     .l2 {
-        width: 100%;
-        height: 80%;
         padding: 10px;
-        margin: 10px;
-        line-height: 30px;
-        text-align: center;
     }
 }
